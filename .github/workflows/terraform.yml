@@ -75,4 +75,4 @@ jobs:
         run: terraform init
       # Generates an execution plan for Terraform
       - name: Terraform Apply
-        run: terraform apply -auto-approve
+        run: terraform destroy -auto-approve
