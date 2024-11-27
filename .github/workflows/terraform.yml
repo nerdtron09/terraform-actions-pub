@@ -49,6 +49,7 @@ jobs:
 
   terraform-apply:
     name: 'Terraform Apply'
+    needs: terraform
     runs-on: ubuntu-22.04    # This runner has terraform pre-installed
     environment: production
 
