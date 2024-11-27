@@ -74,5 +74,5 @@ jobs:
       - name: Terraform Init
         run: terraform init
       # Generates an execution plan for Terraform
-      # - name: Terraform Apply
-      #   run: terraform apply -auto-approve
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
