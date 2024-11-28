@@ -13,7 +13,7 @@ env:
   AWS_REGION: ap-southeast-2      # set this to your preferred AWS region, e.g. us-west-1
 
 jobs:
-  terraform:
+  terraform-plan:
     name: 'Terraform'
     runs-on: ubuntu-22.04    # This runner has terraform pre-installed
     environment: preprod
@@ -49,7 +49,7 @@ jobs:
 
   terraform-apply:
     name: 'Terraform Apply'
-    needs: terraform
+    needs: terraform-plan
     runs-on: ubuntu-22.04    # This runner has terraform pre-installed
     environment: production
 
