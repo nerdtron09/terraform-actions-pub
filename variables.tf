@@ -39,7 +39,7 @@ variable "boolean" {
 variable "standard_tags" {
   type = map(string)
   default = {
-    technical = "Cyber"
+    technical = "CloudTeam"
     costgroup = "SRE"
     owner     = "SRE"
   }
