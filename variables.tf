@@ -43,5 +43,6 @@ variable "standard_tags" {
     costgroup = "SRE"
     owner     = "SRE"
     WBS = "1234SRE"
+    cloudcustodian = "managed"
   }
 }
