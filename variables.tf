@@ -42,6 +42,6 @@ variable "standard_tags" {
     technical = "CloudTeam"
     costgroup = "SRE"
     owner     = "SRE"
-    WBS = "1234SRE"
+    WBS       = "1234SRE"
   }
 }

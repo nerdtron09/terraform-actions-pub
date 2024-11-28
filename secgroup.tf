@@ -16,7 +16,7 @@ resource "aws_security_group" "ec2-secgroup" {
   }
 
 
-ingress {
+  ingress {
     from_port   = 3389
     to_port     = 3389
     protocol    = "tcp"
